@@ -52,3 +52,4 @@ CREATE TABLE OrdersItems(
 
 SELECT m.item_id,m.item_name,m.price,o.order_id,o.order_date,oi.order_item_id,oi.quantity FROM Menu AS m INNER JOIN OrdersItems AS oi ON m.item_id = oi.item_id INNER JOIN Orders AS o ON oi.order_id = o.order_id WHERE order_id = 32;
 
+#c4942f
